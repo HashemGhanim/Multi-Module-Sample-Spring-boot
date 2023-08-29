@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/multi-module-project.iml" filepath="$PROJECT_DIR$/multi-module-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/products-api/products-api.iml" filepath="$PROJECT_DIR$/products-api/products-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/products-model/products-model.iml" filepath="$PROJECT_DIR$/products-model/products-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/products-repository/products-repository.iml" filepath="$PROJECT_DIR$/products-repository/products-repository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/products-services/products-services.iml" filepath="$PROJECT_DIR$/products-services/products-services.iml" />
+    </modules>
+  </component>
+</project>
