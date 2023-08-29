@@ -54,3 +54,5 @@ answer : that used to indicate that the module is not intended to produce a buil
 
 References :
 1) https://www.baeldung.com/maven-multi-module
+2) https://spring.io/guides/gs/multi-module/
+3) https://www.jetbrains.com/idea/guide/tutorials/marco-codes-maven/multi-module-projects/
