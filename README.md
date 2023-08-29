@@ -31,3 +31,7 @@ answer : using this
 
 ```
 so the submodule will inhernt from POM(Parent).
+
+#### Who Can Make Module ?
+answer : using Spring Initializr you should choose the maven and inject the dependencies in thier pom.xml 
+
