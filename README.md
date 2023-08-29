@@ -35,3 +35,20 @@ so the submodule will inhernt from POM(Parent).
 #### Who Can Make Module ?
 answer : using Spring Initializr you should choose the maven and inject the dependencies in thier pom.xml 
 
+#### Can I Make Some Module As Library ?
+answer : you can make it by delete  
+```
+<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+```
+from own pom.xml file and delete class that already annotated by ``` @SpringBootApplication ``` from Main and ``` @SpringBootTest ``` from Test.
+
+#### What The Mean Of ``` <packaging>pom</packaging> ?
+answer : that used to indicate that the module is not intended to produce a build artifact (e.g., JAR, WAR) itself. Instead, it serves as a parent or aggregator module that groups together other submodules within a multi-module project.
+
